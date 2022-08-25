@@ -1,6 +1,12 @@
 import React from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
-import Logo from '../../assets/NavigationBarImages/Logo.svg';
+
+//Icons
+import Github from '../../assets/NavigationBarImages/GithubIcon.svg';
+import Instagram from '../../assets/NavigationBarImages/InstagramIcon.svg';
+import LinkedIn from '../../assets/NavigationBarImages/LinkedinIcon.svg';
+import TikTok from '../../assets/NavigationBarImages/TiktokIcon.svg';
+
 import {
     Nav, 
     NavbarContainer,  
@@ -15,13 +21,9 @@ import {
 
 const Navbar = ({ isOpen, toggle }) => {
     return (
-        <>
+        
             <Nav className='/'>
-                <NavLinks to='/'>
-                    <img width="250vw"
-                        src={Logo}>
-                    </img>
-                </NavLinks>
+
 
                 <NavbarContainer>
 
@@ -38,15 +40,34 @@ const Navbar = ({ isOpen, toggle }) => {
 
                     
                     <NavBtn>
-                    <a href='https://drive.google.com/file/d/1E40IN7ro8bu5YJBgEa-oPB5TQk6k-lW0/view?usp=sharing' target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
-                        <NavBtnLink to='/sponsor-us' smooth={true} offset={-75}>Sponsor Us</NavBtnLink>
+                    <a href='https://www.tiktok.com/@victpham?_t=8V7YqnEGT5R&_r=1' target="blank">
+                        <img width="40px" style={{ paddingRight: '10px', zIndex: '10' }}
+                            src={TikTok}>
+                        </img>
+                    </a>
+
+                    <a href='https://www.instagram.com/vpham1686/' target="blank">
+                        <img width="40px" style={{ paddingRight: '10px', zIndex: '10' }}
+                            src={Instagram}>
+                        </img>
+                    </a>
+
+                    <a href='https://github.com/vpham1686' target="blank">
+                        <img width="37px" style={{ paddingRight: '10px', zIndex: '10' }}
+                            src={Github}>
+                        </img>
+                    </a>
+
+                    <a href='https://www.linkedin.com/in/victor-pham-vp0805/' target="blank">
+                        <img width="40px" style={{ paddingRight: '10px', zIndex: '10' }}
+                            src={LinkedIn}>
+                        </img>
                     </a>
                     </NavBtn> 
-                    {/* //Test// */}
 
                 </NavbarContainer>
             </Nav>
-        </>
+        
     );
 };
 
