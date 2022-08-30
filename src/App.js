@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages';
 import ProjectPage from "./components/ProjectPage";
+import About from './components/AboutPage';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       {/* Bug Inquiries */}
       {contacts()}
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="/projects" element={<ProjectPage />} />
       {/* Should create an error page (Something simple like an image or something) for any invalid routes */}
       <Route path="*" element={<Home />} />

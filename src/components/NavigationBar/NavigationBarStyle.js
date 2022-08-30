@@ -54,7 +54,7 @@ export const NavNav = styled.nav`
     }
 
     ul li a:hover {
-        color: #E5B13A;
+        color: #C0CDE9;
     }
 
     &.stroke ul li a {
@@ -70,7 +70,7 @@ export const NavNav = styled.nav`
         width: 0%;
         content: '.';
         color: transparent;
-        background: #E5B13A;
+        background: #C0CDE9;
         height: 3px; 
     }
 
@@ -99,7 +99,7 @@ export const NavLinks = styled(LinkRouter)`
     color: #fff;
     display: flex;
     align-items: center;
-    text-decorartion: none;
+    text-decoration: none;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
@@ -120,7 +120,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled.div`
     border-radius: 50px;
-    background: #E5B13A;
+    background: #ffffff;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
@@ -133,7 +133,7 @@ export const NavBtnLink = styled.div`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #C0CDE9;
+        color: #000000;
     }
 `;

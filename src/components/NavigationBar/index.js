@@ -33,6 +33,12 @@ const Navbar = ({ isOpen, toggle }) => {
                     <NavNav className="stroke">
                         <NavMenu>
                             <NavItem>
+                                <NavLinks to='/home'>Home</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to='/about'>About Me</NavLinks>
+                            </NavItem>
+                            <NavItem>
                                 <NavLinks to='/projects'>Projects</NavLinks>
                             </NavItem>
                         </NavMenu>
@@ -65,6 +71,12 @@ const Navbar = ({ isOpen, toggle }) => {
                     </a>
                     </NavBtn> 
 
+                    <NavBtn>
+                    <a href='https://drive.google.com/file/d/1RXGKoBsl_NR0cBplhjOZr8xNR750LFs2/view?usp=sharing' target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                        <NavBtnLink to='/sponsor-us' smooth={true} offset={-75}>Resume</NavBtnLink>
+                    </a>
+                    </NavBtn> 
+                    
                 </NavbarContainer>
             </Nav>
         
