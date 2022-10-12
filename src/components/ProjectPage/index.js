@@ -11,13 +11,15 @@ import Website from '../../assets/ProjectPageImages/SolarWebsite.png';
 import {
     ProjectContainer,
     ProjectHeroContainer,
+    TextContainer,
+    Layer1,
+
     ProjectProjectContainer,
     ProjectBackground,
     Project,
     ProjectImage,
     Modal,
     ZoomIn,
-    SeeMoreLink,
 
 } from './ProjectPageStyle';
 
@@ -34,12 +36,19 @@ const ProjectPage = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
         
             <ProjectContainer>
+
                 <ProjectHeroContainer>
+                    <Layer1>
+                        <TextContainer>
+                            <h1>
+                                Personal Projects
+                            </h1>
+                        </TextContainer>
+                    </Layer1>
 
                 </ProjectHeroContainer>
 
                 <ProjectProjectContainer>
-
                     <Project>
                         <Popup
                         trigger={
@@ -221,7 +230,6 @@ const ProjectPage = () => {
                                 Data Analysis, Quality Control, Experimental Development
                             </p2>
                     </Project>
-
                 </ProjectProjectContainer>
 
                 

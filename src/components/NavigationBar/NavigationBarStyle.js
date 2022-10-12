@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkRouter } from 'react-router-dom';
 
 export const Nav = styled.nav`
-    background: #09192D;
+    background: #000000;
     height: 60px;
     display: flex;
     align-items: center;
@@ -19,11 +19,13 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
     display: flex;
-    height: 80px;
+    height: 60px;
     z-index: 1;
     justify-content: end;
     width: 100%;
     padding: 0 24px;
+
+
 `;
 
 export const MobileIcon = styled.div`
@@ -63,7 +65,7 @@ export const NavNav = styled.nav`
 
     &.stroke ul li a:after {
         position: absolute;
-        bottom: 10px;
+        bottom: 1px;
         left: 0;
         right: 0;
         margin: auto;
@@ -92,7 +94,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-    height: 80px;
+    height: 60px;
 `;
 
 export const NavLinks = styled(LinkRouter)`

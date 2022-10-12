@@ -11,7 +11,7 @@ export const ZoomIn = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-    background: #09192D;
+    background: #000000;
 `;
 
 export const HomeHeroContainer = styled.div`
@@ -35,7 +35,7 @@ export const VictorImage = styled.img`
     width: 30vw;
     display: block;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 15px;
 `;
 
 export const HomeProjectContainer = styled.div`
@@ -50,8 +50,8 @@ export const Project = styled.div`
 `;
 
 export const ProjectBackground = styled.div`
-    background: #2F3649;
-    border-radius: 50px;
+    background: #6D7D92;
+    border-radius: 15px;
     width: 33vw;
     height: 33vw;
     display: flex;
@@ -93,11 +93,11 @@ export const SeeMoreLink = styled(LinkRouter)`
 
     &:hover {
         transition: 0.4s;
-        font-size: 17px;
+        font-size: 1.1vw;
 }
 `;
 
 export const SeeMoreContainer = styled.div`
     height: calc(5vh);
-    background: #09192D;
+    background: #000000;
 `;

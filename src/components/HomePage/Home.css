@@ -1,30 +1,30 @@
 h1 {
     color: #C0CDE9;
-    font-size: 60px;
+    font-size: 4vw;
     margin-bottom: auto;
 }
 
 h2 {
     color: #BBBBBB;
-    font-size: 30px;
+    font-size: 2vw;
     margin-top: auto;
 }
 
 h3 {
     color: #C0CDE9;
-    font-size: 25px;
+    font-size: 1.35vw;
     margin: auto;
 }
 
 p {
     color: #6D7D92;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.6vw;
 }
 
 p2 {
     color: #BBBBBB;
-    font-size: 20px;
+    font-size: 1vw;
     margin: auto;
 }
 
