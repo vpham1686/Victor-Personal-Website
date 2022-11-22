@@ -11,8 +11,7 @@ export const ZoomIn = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-    background: #08090B;
-    //potential pure black
+    background: #202020;
 `;
 
 export const HomeHeroContainer = styled.div`
@@ -100,5 +99,5 @@ export const SeeMoreLink = styled(LinkRouter)`
 
 export const SeeMoreContainer = styled.div`
     height: calc(5vh);
-    background: #000000;
+    background: #202020;
 `;
