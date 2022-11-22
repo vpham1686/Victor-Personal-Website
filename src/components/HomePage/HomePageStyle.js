@@ -11,7 +11,8 @@ export const ZoomIn = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-    background: #000000;
+    background: #08090B;
+    //potential pure black
 `;
 
 export const HomeHeroContainer = styled.div`
@@ -32,7 +33,7 @@ export const VictorBlurb = styled.div`
 `;
 
 export const VictorImage = styled.img`
-    width: 30vw;
+    width: 35vw;
     display: block;
     margin: auto;
     border-radius: 15px;
@@ -50,7 +51,7 @@ export const Project = styled.div`
 `;
 
 export const ProjectBackground = styled.div`
-    background: #6D7D92;
+    background: #2A7B7A;
     border-radius: 15px;
     width: 33vw;
     height: 33vw;
